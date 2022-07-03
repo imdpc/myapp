@@ -1,0 +1,76 @@
+/* CSS for Round number */
+.numberCircle {
+    font-family: "OpenSans-Semibold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 50%;
+    font-size: 12px;
+    min-width: 38px;
+    min-height: 38px;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+.numberCircle span {
+    display: inline-block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/* Some Back Ground Colors */
+.clrGreen {
+    background: #ff24b6;
+}
+
+.container{
+    margin-top: 2%;
+    justify-content: space-between;
+    display: flex;
+    /* width: 80%;
+    margin-left: 8%; */
+    float: left;
+    /* padding: 10px; */
+    margin: 2%;
+    background-color: rgb(170, 161, 161);
+    
+}
+
+
+.line {
+    position: absolute;
+    left: 80px;
+    top: 65px;
+    right: auto;
+    bottom: 0%;
+    width: 75%;
+    height: 1px;
+    background-color: #f43397;
+}
+
+.hr-after:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color:#f43397;
+    right: 0;
+    top: 50%;
+    left: 150%;
+    
+}
+.column-seller-steps{
+    /* justify-content: center; */
+    padding: 2%;
+    width: 20%;
+}
+#four{
+    margin-left: 20%;
+}

@@ -1,0 +1,35 @@
+/* css for practice component */
+
+
+/* CSS for three youtube columns */
+
+.column-youtube {
+    /* float: left; */
+    
+    /* justify-content: space-between;
+    display: flex; */
+    width: 100%;
+    justify-content: center;
+    
+
+
+}
+
+
+/* Clear floats after the columns */
+
+.row{
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+
+
+
+
+/* css for first heading */
+
+h1 {
+    color: red;
+}
